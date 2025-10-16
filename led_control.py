@@ -1,5 +1,4 @@
-from collections import namedtuple
-from yeelight import discover_bulbs, Bulb 
+from yeelight import discover_bulbs, Bulb
 from flask import Flask, render_template, redirect, url_for, request
 from PIL import ImageColor
 bulbs = discover_bulbs()
